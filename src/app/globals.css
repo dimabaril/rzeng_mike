@@ -19,3 +19,18 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* img {
+  display: block;
+  max-width: 100%;
+} */
+
+/* html,
+body,
+#__next {
+  height: 100%;
+} */
+
+/* div {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+} */

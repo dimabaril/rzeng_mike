@@ -9,31 +9,18 @@
 
 .parallax {
   position: relative;
-  /* overflow: hidden; */
 }
 
 .parallax__layer {
-  /* position: absolute;
-  top: 66%;
-  left: 33%; */
+  left: 45%;
   height: 200%;
 }
 
-/* .parallax__layer__back {
-  z-index: 1;
-  transform: translateZ(-1px) scale(2);
-}
-
-.parallax__layer__front {
-  z-index: 2;
-  transform: translateZ(0);
-} */
-
-.smooth_edges {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+/* .smooth_edges {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .blur_background {
-  backdrop-filter: blur(10px); /* Apply blur effect to the background */
-  -webkit-backdrop-filter: blur(10px); /* Safari support */
-}
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px); 
+} */

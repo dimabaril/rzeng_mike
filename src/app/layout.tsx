@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 // import localFont from "next/font/local";
 import "./globals.css";
+// import Favicon from "./favicon.ico";
 
 // import { Header } from "@/components/header/Header";
 // import { Footer } from "@/components/footer/Footer";
@@ -21,6 +22,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Rzeng & Mike",
   description: "duo of intermedia artists",
+  // icons: [{ rel: "icon", url: Favicon.src }],
 };
 
 export default function RootLayout({

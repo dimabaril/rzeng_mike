@@ -1,3 +1,3 @@
 export default function VerticalWhite() {
-  return <div className="h-full bg-vertical_white bg-cover"></div>;
+  return <div className="h-screen bg-vertical_white bg-cover"></div>;
 }

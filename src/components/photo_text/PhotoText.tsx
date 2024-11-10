@@ -3,7 +3,7 @@ import styles from "./PhotoText.module.css";
 
 export default function PhotoText() {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-4 px-4">
       <Image
         src="/images/photo_duo.png"
         alt="photo duo"
@@ -12,7 +12,7 @@ export default function PhotoText() {
         // className="self-center"
       />
 
-      <div className="text-xl text-white">
+      <div className="text-xl leading-relaxed text-white">
         Rzeng & Mike Iv are a duo of intermedia artists engaged in creation of
         an intense abstraction - audio-visual (psychically charged) space with
         cross-roads where different ideas and forces, visual and sonic images

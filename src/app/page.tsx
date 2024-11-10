@@ -1,21 +1,35 @@
-import Image from "next/image";
+import Aside from "@/components/aside/Aside";
+import VerticalBw from "@/components/vertical_bw/VerticalBw";
+import VerticalWhite from "@/components/vertical_white/VerticalWhite";
+import Main from "@/components/main/Main";
+import PhotoText from "@/components/photo_text/PhotoText";
+import TitleMain from "@/components/title_main/TitleMain";
 
 export default function Home() {
   return (
-    <main className="row-start-2 flex flex-col items-center gap-8 bg-red-200 sm:items-start">
-      <Image
-        className="dark:invert"
-        src="/next.svg"
-        alt="Next.js logo"
-        width={180}
-        height={38}
-        priority
-      />
-      <div>HOME MAIN</div>
-      <div>HOME MAIN</div>
-      <div>HOME MAIN</div>
-      <div>HOME MAIN</div>
-      <div>HOME MAIN</div>
+    <main className="flex h-screen w-full">
+      <div className="fixed right-1/3 top-20 z-30 translate-x-1/2">
+        <TitleMain />
+      </div>
+      <div className="fixed right-1/4 top-10 z-10 w-1/3">
+        <PhotoText />
+      </div>
+      <div className="w-8/12">
+        <Main />
+      </div>
+      <div className="fixed right-0 z-10 flex w-4/12 flex-row">
+        <div className="flex w-1/2 flex-row">
+          <div className="w-1/2 opacity-50">
+            <VerticalWhite />
+          </div>
+          <div className="w-1/2">
+            <VerticalBw />
+          </div>
+        </div>
+        <div className="w-1/2">
+          <Aside />
+        </div>
+      </div>
     </main>
   );
 }

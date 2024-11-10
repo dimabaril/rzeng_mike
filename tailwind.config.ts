@@ -18,7 +18,7 @@ export default {
         main: "url('/images/main.png')",
         vertical_white: "url('/images/vertical_white.png')",
         vertical_bw: "url('/images/vertical_bw.png')",
-        photo_duo: "url('/images/photo_duo.png')",
+        photo_duo: "url('/images/photo_duo.jpg')",
         photo_duo_bottom: "url('/images/photo_duo_bottom.png')",
         ring: "url('/images/ring.png')",
       },

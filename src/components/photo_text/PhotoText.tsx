@@ -3,7 +3,7 @@ import styles from "./PhotoText.module.css";
 
 export default function PhotoText() {
   return (
-    <div className="flex flex-col gap-4 px-4">
+    <div className="flex flex-col">
       <Image
         src="/images/photo_duo.jpg"
         alt="photo duo"
@@ -12,7 +12,7 @@ export default function PhotoText() {
         // className="self-center"
       />
 
-      <div className="text-2xl text-black">
+      <div className="-mr-20 -mt-10 ml-20 text-base text-black">
         <p>
           <span className="bg-white p-1 leading-snug">
             Rzeng & Mike Iv are a duo of intermedia artists engaged in the

@@ -11,7 +11,7 @@ export default function Home() {
       <div className="fixed right-1/4 top-20 z-30 translate-x-1/4">
         <TitleMain />
       </div>
-      <div className="fixed right-1/4 top-10 z-10 w-1/3">
+      <div className="fixed right-1/4 z-10 w-1/4 -translate-x-1/4">
         <PhotoText />
       </div>
       <div className="w-8/12">

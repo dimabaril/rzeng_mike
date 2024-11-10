@@ -29,10 +29,10 @@ export default function Main() {
   return (
     <div
       ref={scrollContainerRef}
-      className={`${styles.hide_scrollbar} overflow-auto h-full`}
+      className={`${styles.hide_scrollbar} h-full overflow-auto`}
     >
       <div className={`${styles.parallax} h-full`}>
-        <div className="bg-main h-full bg-cover"></div>
+        <div className="h-full bg-main bg-cover"></div>
 
         {/* <div className="bg-photo_duo_bottom h-full bg-cover"></div> */}
         <Image
@@ -45,7 +45,7 @@ export default function Main() {
 
         <div
           ref={frontLayerRef}
-          className={`${styles.parallax__layer} absolute top-1/4 left-1/3 w-3/12 bg-center_line bg-contain opacity-70`}
+          className={`${styles.parallax__layer} absolute left-1/3 top-1/4 w-3/12 bg-center_line bg-contain opacity-70`}
         ></div>
       </div>
     </div>

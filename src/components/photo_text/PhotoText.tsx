@@ -12,7 +12,7 @@ export default function PhotoText() {
         // className="self-center"
       />
 
-      <div className="text-xl font-bold font- text-white">
+      <div className="text-xl text-white">
         Rzeng & Mike Iv are a duo of intermedia artists engaged in creation of
         an intense abstraction - audio-visual (psychically charged) space with
         cross-roads where different ideas and forces, visual and sonic images
@@ -30,7 +30,7 @@ export default function PhotoText() {
         alt="ring"
         width={300}
         height={300}
-        className={`${styles.shake} self-center p-6 object-contain`}
+        className={`${styles.shake} self-center object-contain p-6`}
       />
     </div>
   );

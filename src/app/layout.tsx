@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased h-screen`}>
+      <body className={`h-screen antialiased`}>
         {/* <Header /> */}
         {children}
         {/* <Footer /> */}

@@ -10,7 +10,7 @@ export function Header() {
         width={90}
         height={19}
       />
-      <div className="text-xl font-normal ">Header</div>
+      <div className="text-xl font-normal">Header</div>
     </header>
   );
 }

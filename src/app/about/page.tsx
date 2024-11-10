@@ -9,23 +9,23 @@ import TitleMain from "@/components/title_main/TitleMain";
 
 export default function About() {
   return (
-    <main className="flex w-full h-screen bg-black">
-      <div className="fixed z-30 top-20 right-1/3 translate-x-1/2">
+    <main className="flex h-screen w-full bg-black">
+      <div className="fixed right-1/3 top-20 z-30 translate-x-1/2">
         <TitleMain />
       </div>
-      <div className="fixed z-10 top-10 w-1/3 right-1/4">
+      <div className="fixed right-1/4 top-10 z-10 w-1/3">
         <PhotoText />
       </div>
       <div className="w-8/12">
         <Main />
       </div>
-      <div className="w-1/12 overflow-hidden z-10 opacity-50">
+      <div className="z-10 w-1/12 overflow-hidden opacity-50">
         <VerticalWhite />
       </div>
       <div className="w-1/12 overflow-hidden">
         <VerticalBw />
       </div>
-      <div className="w-2/12 ">
+      <div className="w-2/12">
         <Aside />
       </div>
     </main>

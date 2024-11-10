@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Footer() {
   return (
-    <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+    <footer className="row-start-3 flex flex-wrap items-center justify-center gap-6">
       <Image
         // className="dark:invert"
         src="/next.svg"
@@ -10,7 +10,7 @@ export function Footer() {
         width={90}
         height={19}
       />
-      <div className="text-xl font-normal ">Footer</div>
+      <div className="text-xl font-normal">Footer</div>
     </footer>
   );
 }

@@ -1,7 +1,7 @@
+import { Inter } from "next/font/google";
 import type { Metadata } from "next";
 // import localFont from "next/font/local";
 import "./globals.css";
-// import Favicon from "./favicon.ico";
 
 // import { Header } from "@/components/header/Header";
 // import { Footer } from "@/components/footer/Footer";
@@ -19,10 +19,20 @@ import "./globals.css";
 
 // className={` ${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)] '}
 
+// const tamilSangamMn = localFont({
+//   src: "./fonts/tamil-sangam-mn.ttf",
+//   variable: "--font-tamil-sangam-mn",
+//   weight: "normal bold",
+// });
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "Rzeng & Mike",
   description: "duo of intermedia artists",
-  // icons: [{ rel: "icon", url: Favicon.src }],
 };
 
 export default function RootLayout({
@@ -32,7 +42,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`h-screen antialiased`}>
+      <body
+        className={`${inter.className} h-screen antialiased`}
+        // className={`h-screen antialiased`}
+      >
         {/* <Header /> */}
         {children}
         {/* <Footer /> */}

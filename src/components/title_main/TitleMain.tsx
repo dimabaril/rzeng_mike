@@ -1,7 +1,7 @@
 export default function TitleMain() {
   return (
     <h1 className="bg-gray-500 bg-opacity-50 text-4xl xl:text-6xl 2xl:text-8xl">
-      Rzeng/Iv Mike
+      Zero.night
     </h1>
   );
 }

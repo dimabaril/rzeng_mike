@@ -8,7 +8,7 @@ import TitleMain from "@/components/title_main/TitleMain";
 export default function Home() {
   return (
     <main className="flex h-screen w-full">
-      <div className="fixed right-1/3 top-20 z-30 translate-x-1/2">
+      <div className="fixed right-1/4 top-20 z-30 translate-x-1/4">
         <TitleMain />
       </div>
       <div className="fixed right-1/4 top-10 z-10 w-1/3">

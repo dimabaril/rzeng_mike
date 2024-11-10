@@ -5,7 +5,7 @@ export default function PhotoText() {
   return (
     <div className="flex flex-col gap-4 px-4">
       <Image
-        src="/images/photo_duo.png"
+        src="/images/photo_duo.jpg"
         alt="photo duo"
         width={1000}
         height={0}
